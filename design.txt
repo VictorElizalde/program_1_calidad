@@ -1,0 +1,30 @@
+Crear 3 clases
+
+Clase File = Atributos del archivo, nombre, filas vacias, filas con info
+
+Clase Operations = Operaciones para sacar el numero de filas vacias, numero de filas con info, imprimir resultados, ordenar los files en orden ascendente
+
+main = invocacion de los metodos y creacion de ellos
+
+Pseudocodigo del programa
+
+Preguntar el numero de archivos por leer
+
+Repetir procesos siguientes n veces
+
+buscar file en el directorio
+
+Si existe continuar con proceso, si no existe termina proceso y vuelve a inicio
+
+Proceso:
+
+  Crear el objeto file con su atributo nombre
+  llamar operaciones de clase operation y sacar su numero de lineas vacias y con info
+  meter objeto a un vector
+  repetir proceso n veces
+
+Ordenar el vector de menor a mayor
+
+Imprimir resultados ordenados
+
+Terminar programa
