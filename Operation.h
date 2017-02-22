@@ -5,6 +5,7 @@
 
 using namespace std;
 
+//&p-Operation
 class Operation {
 
   public:
@@ -13,6 +14,7 @@ class Operation {
 		void printSummary(int iNumArchivos, int iLineasBlanco, int iLineasNegro);
 };
 
+//&i
 // Determina si una linea tiene informacion o no y la contabiliza y modifica el atributo del archivo
 void Operation :: countLines(File &fFile, string sLine)
 {
@@ -26,6 +28,7 @@ void Operation :: countLines(File &fFile, string sLine)
 	}
 }
 
+//&i
 // Imprime la informacion de un archivo
 void Operation :: printFiles(File &fFile)
 {

@@ -5,6 +5,8 @@
 
 using namespace std;
 
+//&p-File
+
 class File {
 
   public:
@@ -63,6 +65,7 @@ int File :: getLineasBlanco()
   return iLineasBlanco;
 }
 
+//&i
 // Sobrecarga de operador "<" para hacer la comparacion de lineas con informacion de una linea
 bool File :: operator < (File &fFile)
 {

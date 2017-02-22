@@ -11,6 +11,8 @@ using namespace std;
 #include "File.h"
 #include "Operation.h"
 
+//&p-main
+//&i
 // Struct para poder ordenar el vector de acuerdo al atributo getLineasNegro
 // Los parametros son los 2 files a comparar
 struct NumLines{
@@ -19,6 +21,7 @@ struct NumLines{
     }
 };
 
+//&i
 // Funcion que elimina todos los espacios en blanco de una linea
 // Recibe de parametro la linea a limpiar
 string DeleteSpaces(string sLine)
